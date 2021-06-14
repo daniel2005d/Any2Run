@@ -1,0 +1,12 @@
+D:\Codigo Fuente\Convert2PS\Convert2PS\bin\x64\Debug\Convert2PS.exe.config
+D:\Codigo Fuente\Convert2PS\Convert2PS\bin\x64\Debug\Convert2PS.exe
+D:\Codigo Fuente\Convert2PS\Convert2PS\bin\x64\Debug\Convert2PS.pdb
+D:\Codigo Fuente\Convert2PS\Convert2PS\obj\x64\Debug\Convert2PS.Form1.resources
+D:\Codigo Fuente\Convert2PS\Convert2PS\obj\x64\Debug\Convert2PS.Properties.Resources.resources
+D:\Codigo Fuente\Convert2PS\Convert2PS\obj\x64\Debug\Convert2PS.csproj.GenerateResource.cache
+D:\Codigo Fuente\Convert2PS\Convert2PS\obj\x64\Debug\Convert2PS.csproj.CoreCompileInputs.cache
+D:\Codigo Fuente\Convert2PS\Convert2PS\obj\x64\Debug\Convert2PS.exe
+D:\Codigo Fuente\Convert2PS\Convert2PS\obj\x64\Debug\Convert2PS.pdb
+D:\Codigo Fuente\Convert2PS\Convert2PS\obj\x64\Debug\Convert2PS.csprojAssemblyReference.cache
+D:\Codigo Fuente\Convert2PS\Convert2PS\obj\x64\Debug\Convert2PS.Principal.resources
+D:\Codigo Fuente\Convert2PS\Convert2PS\bin\x64\Debug\pstemplates\ReverseShell1.txt

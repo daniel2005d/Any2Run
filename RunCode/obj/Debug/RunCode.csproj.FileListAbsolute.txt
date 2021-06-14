@@ -1,0 +1,5 @@
+D:\Codigo Fuente\Convert2PS\RunCode\bin\Debug\RunCode.dll
+D:\Codigo Fuente\Convert2PS\RunCode\obj\Debug\RunCode.csproj.CoreCompileInputs.cache
+D:\Codigo Fuente\Convert2PS\RunCode\obj\Debug\RunCode.dll
+D:\Codigo Fuente\Convert2PS\RunCode\obj\Debug\RunCode.pdb
+D:\Codigo Fuente\Convert2PS\RunCode\bin\Debug\RunCode.pdb

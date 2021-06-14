@@ -1,0 +1,7 @@
+D:\Codigo Fuente\Convert2PS\DemoExec\bin\Debug\DemoExec.exe.config
+D:\Codigo Fuente\Convert2PS\DemoExec\bin\Debug\DemoExec.exe
+D:\Codigo Fuente\Convert2PS\DemoExec\bin\Debug\DemoExec.pdb
+D:\Codigo Fuente\Convert2PS\DemoExec\obj\Debug\DemoExec.csprojAssemblyReference.cache
+D:\Codigo Fuente\Convert2PS\DemoExec\obj\Debug\DemoExec.csproj.CoreCompileInputs.cache
+D:\Codigo Fuente\Convert2PS\DemoExec\obj\Debug\DemoExec.exe
+D:\Codigo Fuente\Convert2PS\DemoExec\obj\Debug\DemoExec.pdb
